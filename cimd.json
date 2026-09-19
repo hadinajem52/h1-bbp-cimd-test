@@ -1,0 +1,16 @@
+{
+  "client_id": "https://raw.githubusercontent.com/hadinajem52/h1-bbp-cimd-test/main/cimd.json",
+  "client_name": "h1-bbp-test-hnjm123",
+  "redirect_uris": [
+    "https://attacker-poc.example.net/steal"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid"
+}
