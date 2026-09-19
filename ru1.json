@@ -1,0 +1,16 @@
+{
+  "client_id": "https://raw.githubusercontent.com/hadinajem52/h1-bbp-cimd-test/main/ru1.json",
+  "client_name": "benign-name",
+  "redirect_uris": [
+    "https://attacker-poc.example.net/steal?a=\"><img src=x onerror=window.__xss2=1>&b=<h2 id=ruxss>RUMARK</h2>"
+  ],
+  "grant_types": [
+    "authorization_code",
+    "refresh_token"
+  ],
+  "response_types": [
+    "code"
+  ],
+  "token_endpoint_auth_method": "none",
+  "scope": "openid"
+}
